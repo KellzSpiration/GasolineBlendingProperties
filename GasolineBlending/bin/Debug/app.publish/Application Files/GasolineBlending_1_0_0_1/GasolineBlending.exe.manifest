@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GasolineBlending.exe" version="1.0.0.1" publicKeyToken="61ff81923063aae2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GasolineBlending" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GasolineBlending.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GasolineBlending.exe" size="185280">
+      <assemblyIdentity name="GasolineBlending" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>y82CoV3ZVFV0TM0MR6puJWAQxZ7Wp/EU+ohvJH1FtSk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GasolineBlending.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SUZYOBOROKUMO\HP" issuerKeyHash="2b553f98f7b47185c84069955e75a207c1c923da" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6/uM3qet0dfVPnux5B6mRfLWDuVXRbW1i6q9PttB5yc=</DigestValue></Reference></SignedInfo><SignatureValue>QQkzlVlgMavb08HeqSwWier3FthzyRia95bgb8t8HXrUywqiye2oxqLhL/lsbZFMMZ4pexHY8aeweBbn3PPlfrArJfVBTIli5oxQMY3izTIPjRZKxTOr97odX4xDoeDHeL34WFIihC4UV1iJveMHsebgePZVpE89sd8jncC7Qqc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q7DQihVrQ5RM6Dh4b5nWXmUaZRUApUZWr5fdyEKwR/A/TkNzW6VWydBt041ALs8fh7+PvBdemEyLI2/pbRzscmxd6cm30jlgT0Pi/wbKExSOsp6r8TR5Rnq9Dt8Hg1WmMYZom1yZifp8LGU/0N8F0h5T9zXFfiV1VmOXoa5KIlE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="27e741db3ebdaa8bb5b54557e50ed6f245a61ee4b17b3ed5d7d1ada7de8cfbeb" Description="" Url=""><as:assemblyIdentity name="GasolineBlending.exe" version="1.0.0.1" publicKeyToken="61ff81923063aae2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SUZYOBOROKUMO\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vO29wTQo48jeuEUaQgP8U73Mi+40f2P/2d7V7sRZVNs=</DigestValue></Reference></SignedInfo><SignatureValue>mPiE4ByoDaBg9ouOYVC8PyJzaHkjQBE4wKGJoY5F3nbOZqj9YYmbDAxKt5/9K/s0lbtuwjqvjUpta78UUFSXSTJziJMdiLbTL854n2/xHxSblfaA8g6Qo5MIExGWPMTPtDx7eCSUHqsxlgOTixobQEbW2fyNNY7hvXXc8e7gmwo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q7DQihVrQ5RM6Dh4b5nWXmUaZRUApUZWr5fdyEKwR/A/TkNzW6VWydBt041ALs8fh7+PvBdemEyLI2/pbRzscmxd6cm30jlgT0Pi/wbKExSOsp6r8TR5Rnq9Dt8Hg1WmMYZom1yZifp8LGU/0N8F0h5T9zXFfiV1VmOXoa5KIlE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcAVMmlGUkI1J+ebSTmstVjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUwBVAFoAWQBPAEIATwBSAE8ASwBVAE0ATwBcAEgAUDAeFw0yMTA5MDgwNTQ5NTRaFw0yMjA5MDgxMTQ5NTRaMCsxKTAnBgNVBAMeIABTAFUAWgBZAE8AQgBPAFIATwBLAFUATQBPAFwASABQMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrsNCKFWtDlEzoOHhvmdZeZRplFQClRlavl93IQrBH8D9OQ3NbpVbJ0G3TjUAuzx+Hv4+8F16YTIsjb+ltHOxybF3pybfSOWBPQ+L/BsoTFI6ynqvxNHlGer0O3weDVaYxhmibXJmJ+nwsZT/Q3wXSHlP3NcV+JXVWY5ehrkoiUQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADCs8QAxWulkH4jIMKnd+eDdhMvC4u0OrrYXSsK9y3zXSXS11HEVe3hBlhAgQpOKDny/eFfECI4FmCo2+euWRFpwKmB9+JBzvX63iz+jW0XMiyAiEazynvwHewJkRsggjGSD2tZkch/wM1FD7hIYM6jw+Wzj0+banPaGn/E7nYvB</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
